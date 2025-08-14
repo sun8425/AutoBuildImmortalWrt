@@ -19,16 +19,16 @@ on:
       enable_pppoe:
         description: "是否配置PPPoE拨号信息?"
         required: true
-        default: 'no'
+        default: 'yes'
         type: choice
         options:
         - 'yes'
         - 'no'
       pppoe_account:
-        description: "宽带账号 (若启用PPPoE)"
+        description: "CD02833023738563"
         required: false
       pppoe_password:
-        description: "宽带密码 (若启用PPPoE)"
+        description: "12345678"
         required: false
 
 jobs:
